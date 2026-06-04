@@ -1,7 +1,3 @@
-//
-// Created by Elias on 04/06/2026.
-//
-
 #ifndef PRIVATE_PROJECTS_TOKEN_H
 #define PRIVATE_PROJECTS_TOKEN_H
 
