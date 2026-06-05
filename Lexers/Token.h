@@ -9,13 +9,34 @@ enum class TokenType {
 
     // Types
     Int,
+    Double,
+    Float,
+    String,
+    Char,
+    Bool,
+        True, False,
+    Var,
+
+    // function types
+    Void,
+    Return,
 
     // Operators
     Assign, Plus, Minus, Star, Slash,
 
+    // selection
+    If,
+    ElseIf,
+    Else,
+
+    // iteration
+    While,
+    For,
+
     // groeping
     LParen, RPAren,  ///< ( and )
 
+    // special characters
     SemiColon,
     Colon,
     Comma,

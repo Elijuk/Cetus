@@ -7,9 +7,6 @@
 class Lexer {
 public:
     Lexer(const char* file_data);
-
-    [[nodiscard]] std::vector<Token> tokenizer();
-
 private:
     const char* m_file_data;
     unsigned int m_current_line = 1;
