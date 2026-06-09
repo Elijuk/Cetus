@@ -1,0 +1,13 @@
+// static typing
+int getal = 10;
+float f_getal = 10.5;
+double d_getal = 10.5;
+string hallo = "hallo";
+char c = 'T';
+bool state = true;
+
+// dynamic typing
+var example = 5;
+example = "5";
+
+
